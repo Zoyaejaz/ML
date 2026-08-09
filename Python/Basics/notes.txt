@@ -1,0 +1,33 @@
+To write comment, click 'ctrl'+'/' -->this will automatically give the comment i.e. #
+
+
+#Mutable data type
+Objects that can be changed after creation
+📌 Key idea (reference behavior)
+Object is modified in-place
+Reference (memory address) remains same
+
+1. list
+2. set
+3. Dictionary
+4. Bytearray
+5. Array
+
+
+
+
+
+#Immutable data type
+Objects that cannot be changed after creation
+📌 Key idea (reference behavior)
+Any “modification” creates a new object
+The variable now points to a new reference
+
+1. Integers
+2. Floating-point numbers
+3. Boolean
+4. Strings
+5. Tuples
+6. Frozen set
+7. Bytes
+

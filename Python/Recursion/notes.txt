@@ -1,0 +1,11 @@
+Recursion is a function which calls itself. It is used to directly use a mathematical formula as a function 
+example:
+factorial(n)=n*factorial(n-1)
+
+this function can be defined as follows:
+
+def factorial(x):
+    if i==0 or i==1:
+        return 1
+    else:
+        return x*factorial(x-1)

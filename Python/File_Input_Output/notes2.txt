@@ -1,0 +1,13 @@
+Iteration/loop tool  -->This are the tool which helps to do iteration
+1.for loop
+2.comprehension
+3.map
+
+Iterable objects  -->these are the objects on which we apply iteration tool
+1.lists
+2.Dictionary
+3.file
+4.range
+
+responses
+__next__

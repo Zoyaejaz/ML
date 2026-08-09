@@ -1,0 +1,16 @@
+Syntax of function:
+-->this is called function declararation
+def func1():           
+    //statement to print
+
+-->Function calle
+func1()
+
+##There are  2 types of functions in python
+1. Built-in function  -->already present in python.(ex:len(),print(),range(),etc)
+2. User defined function  -->Defined by the user(ex:function which we defined by our own)
+
+
+
+
+ 

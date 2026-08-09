@@ -1,0 +1,13 @@
+There are 2 loops in python:
+1. While loop
+2. For loop
+
+##while loop
+Syntax:
+while condition:
+    #Body of the loop
+
+In while loop, the condition is checked first. If it evaluates to true, the body of the loop is executed, otherwise not
+
+//We can use the range() function to write the code, In that code we write the 3 parameters inside it that is start,step and step-size 
+ex: range(start,stop,step-seze)

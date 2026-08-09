@@ -1,0 +1,25 @@
+Dictionary: a dictionary holds key-value pairs, where each key maps to a value, allowing efficient access and retrieval of data. Each key-value pair in a dictionary is separated by a colon (:), and multiple pairs are separated by commas.
+Values in a dictionary can be of any datatype and can be duplicated, whereas keys can’t be repeated and must be immutable
+Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly.
+It is unordered, mutable,indexed, and cannot contain duplicate keys
+ex: {'food':'spam', 'taste':'yum'} or dict(hours=10) -->dict is surrounded by curly brackets
+
+
+
+SET: Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements. The type of elements in a set need not be the same, various mixed-up data type values can also be passed to the set.
+To store a collection of unique items, we use set
+Sets in Python are unordered, so the order of elements when printed may vary each time the code is run.
+it is unordered,unindexed,it cannot contain duplicate values, there is no way to change items in sets
+ex: set('abc'), {'a', 'b', 'c'}
+
+
+
+LIST: List is an ordered and mutable collection of items.It is just treated like an array.It is very flexible as items in a list need not to be of same data type.
+ex:[1,[2,'three'],4.5] or list(range(10)) --->List is surrounded by brackets
+
+
+
+TUPLES: It is an ordered collection of Python objects. it is immutable.
+It can contain any number of elements and of any datatype. 
+Tuples can also be created with a single element, but it is a bit tricky. Having one element in the parentheses is not sufficient, there must be a trailing ‘comma’ to make it a tuple
+ex: (1,'spam',4,'U) ot tuple('spam') --> tuple is surrounded by parantheses

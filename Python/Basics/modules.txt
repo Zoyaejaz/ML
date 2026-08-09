@@ -1,0 +1,16 @@
+MODULE: this is a file containing code written by somebody else which can be imported and used in our programs.
+Type of modules:
+1. Built-in modules: these are pre installed in python. ex:os,ath,random,sys,datetime,etc.
+2. External modules: These modules are need to be install using pip. examples:tensorflow, flask,etc.
+PIP: It is the package manager for python. we can use pip to install a module on our system. 
+example: pip install flask installs flask module 
+
+# this is single comment
+''' hello this is multi line comment. this is used to write long comments'''
+
+
+#Escape sequence characters
+\name  --> newline
+\t     --> tab
+\'     --> single quote
+\\     --> backslash

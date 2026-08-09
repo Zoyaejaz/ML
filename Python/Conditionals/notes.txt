@@ -1,0 +1,10 @@
+Syntax for the if-elif-else condition
+
+if(condition):
+   statement
+elif(condition):
+   statement
+elif(condition):
+   statement
+else:
+   statement

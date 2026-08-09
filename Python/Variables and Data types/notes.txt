@@ -1,0 +1,28 @@
+Python is dynamically typed. in python we don't have to declare its type. 
+we can change the value anytime in the python for the data types. 
+VARIABLES: this is the container to store a value.
+KEYWORDS: Reserved words in python.
+IDENTIFIERS: class/function/variable name 
+There are 5 types of data types in python:
+Numbers: ex(1234(integers), 3.145(floating), 3+4j(complex),0b111,Decimal(), Fraction())
+1. Integers
+2. Floating point numbers  
+3. Strings : ex('spam', "Bob's",b'a\x01c',u'sp\xc4m')
+4. Booleans :(ex:True,False)
+5. None
+6. Functions, modules, classes
+
+#String is immutable
+
+Advance: Decorators, Generators, Iterators, MetaProgramming
+STRINGS: Python Strings are arrays of bytes representing Unicode characters. In Python, there is no character data type, a character is a string of length one. It is represented by str class.
+Strings in Python can be created using single quotes, double quotes or even triple quotes. We can access individual characters of a String using index.
+
+#Data types are also called as object types. Because in python all thng are mostly considered as objects
+
+#True or False are called boolean because it is named after a George Boole, a 19th century mathematician and logician who developed Boolean Algebra. the algebra deals with computer logic and digital circuit design
+
+    =is an assignment operator,it    assigns values to variables
+    == is a comparison operator, it checks if two things are holding the same value, or if two pieces of data are equal
+
+#Operations with booleans involve logical operators like and and or.

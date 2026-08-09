@@ -1,0 +1,31 @@
+__pycache__
+--> is a folder Python automatically creates to store compiled bytecode files (.pyc files).
+--> What it does
+When you run a Python script:
+1. Python compiles your .py file into bytecode (faster to execute)
+2. It saves that bytecode inside __pycache__/
+3. Next time you run the program, Python can skip recompiling and load the cached version → faster startup
+
+If we have main.py file then in __pycache__, python may create main.cpython-312.pyc,
+
+cpython-312
+👉 Tells you:
+Implementation: CPython
+Version: Python 3.12
+
+.pyc
+👉 Stands for:
+Python Compiled
+Contains bytecode, not human-readable code  
+here 312 tells about the version of python.
+
+//Frozen Binaries: Frozen binaries are Python programs that have been packaged into a standalone executable file (like .exe on Windows) so they can run without requiring Python to be installed on the user’s system.
+
+//Python Virtual Machine(PVM)
+It is the runtime engine of Python that actually executes your code.It is also called Python interpreter. In this code gets into loop to iterate byte code
+
+//Byte code is not machine code
+“Bytecode is not a machine because it is only an intermediate set of instructions and cannot execute independently; it requires a virtual machine like the Python Virtual Machine (PVM) to run.”
+“Machine code is the binary-level instruction set executed directly by the CPU, whereas bytecode is an intermediate code that requires a virtual machine for execution.”
+
+//cpython,jython,Ironpython, Stackless, PyPy are the standard Implementation of Python that execute Python code using different platforms and technologies.

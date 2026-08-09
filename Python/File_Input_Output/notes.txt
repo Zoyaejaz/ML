@@ -1,0 +1,42 @@
+RAM is volatile and all of its cotents are lost once a program terminates.In order to persist data forever,we use files.
+A file is data stored in a storage device.
+There are 2 types of  files:
+1. Text files(.txt,.c,etc)
+2. Binary files(.jpg,.dat,etc)
+
+#Opening a file
+open is a built-in function
+open("filename","mode of opening")--> it will open that file which filename you have given and it will open in that mode(either read or write or readwrite) which you have given in the parameter.
+ex:-> open("this.txt","r")
+
+
+#Reading a file
+f=open("this.txt","r")--> open the file in read mode
+text=f.read()--> Read its contents
+print(text)-->print its contents
+f.close()-->close the file
+
+#we can also specify the number of characters in read() function: ex(f.read(2))-->it will read first 2  characters
+
+There are other methods also to read the file--> f.readline()--[It will read one line from the file]
+
+Modes of opening a file
+r -> open for Reading
+w -> open for writing
+a -> open for appending
++ -> open for updating
+'rb' -> open for read in binary mode
+'rt' -> open for read in text mode
+
+#Writing files in python 
+in order to write a file, we first open it in write or append mode after which, we use the python's f.write() method to write to the file.
+
+
+#with statement
+This is the best way to open and close the file automatically is the with statement
+example:  with open("this.txt") as f:
+          f.read()
+we don't need to write f.close() as it is done automatically.
+
+
+Jupyter notebooks have a .ipynb extension and Python files have a .py extension.
