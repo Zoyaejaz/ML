@@ -1,0 +1,7 @@
+Python works on the idea of LEGB
+L: Local
+E:Enclosing
+G:Global
+B:Built-in
+
+A nested function can remember and use variables from its enclosing function even after the enclosing function has finished executing — that's a closure.
